@@ -99,24 +99,24 @@ public class Normal extends Servicio
 
     public void mostar_datos_ticket_normal()
     {
-        System.out.println(getNombre_pasajero());
-        System.out.println(getDni_pasajero());
-        System.out.println(getEdad_pasajero());
-        System.out.println(getSexo_pasajero());
-        System.out.println(getNacionalidad_pasajero());
-        System.out.println(getId_ticket());
-        System.out.println(getPrecio_ticket());
-        System.out.println(getFecha_compra());
-        System.out.println(getFecha_salida());
-        System.out.println(getEstado_ticekt());
-        System.out.println(getCiudad_origen());
-        System.out.println(getCiudad_destino());
-        System.out.println(getDistancia_ruta());
-        System.out.println(getDuracion_ruta());
-        System.out.println(getTipo_servicio());
-        System.out.println(getCosto_servicio());
-        System.out.println(getSeleccion_Asiento());
-        System.out.println(getCantidad_maleta());
-        System.out.println(getMaleta_adicional_costo());
+        System.out.println("Nombre: " + getNombre_pasajero());
+        System.out.println("DNI: " + getDni_pasajero());
+        System.out.println("Edad: " + getEdad_pasajero());
+        System.out.println("Sexo: " + getSexo_pasajero());
+        System.out.println("Nacionalidad: " + getNacionalidad_pasajero());
+        System.out.println("ID Ticket: " + getId_ticket());
+        System.out.println("Precio Ticket: " + getPrecio_ticket());
+        System.out.println("Fecha de compra: " + getFecha_compra());
+        System.out.println("Fecha de salida: " + getFecha_salida());
+        System.out.println("Estado del ticket: " + getEstado_ticekt());
+        System.out.println("Ciudad origen: " + getCiudad_origen());
+        System.out.println("Ciudad destino: " + getCiudad_destino());
+        System.out.println("Distancia de la ruta: " + getDistancia_ruta());
+        System.out.println("Duración de la ruta: " + getDuracion_ruta());
+        System.out.println("Tipo de servicio: " + getTipo_servicio());
+        System.out.println("Costo del servicio: " + getCosto_servicio());
+        System.out.println("Asiento seleccionado: " + getSeleccion_Asiento());
+        System.out.println("Cantidad de maletas: " + getCantidad_maleta());
+        System.out.println("Costo de maleta adicional: " + getMaleta_adicional_costo());
     }
 }

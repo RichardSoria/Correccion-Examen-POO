@@ -126,24 +126,24 @@ public class VIP extends Servicio {
     }
 
     public void mostar_datos_ticket_vip() {
-        System.out.println(getNombre_pasajero());
-        System.out.println(getDni_pasajero());
-        System.out.println(getEdad_pasajero());
-        System.out.println(getSexo_pasajero());
-        System.out.println(getNacionalidad_pasajero());
-        System.out.println(getId_ticket());
-        System.out.println(getPrecio_ticket());
-        System.out.println(getFecha_compra());
-        System.out.println(getFecha_salida());
-        System.out.println(getEstado_ticekt());
-        System.out.println(getCiudad_origen());
-        System.out.println(getCiudad_destino());
-        System.out.println(getDistancia_ruta());
-        System.out.println(getDuracion_ruta());
-        System.out.println(getTipo_servicio());
-        System.out.println(getCosto_servicio());
-        System.out.println(getSeleccion_Asiento());
-        System.out.println(getCantidad_maleta_adicional());
-        System.out.println(getMaleta_adicional_costo());
+        System.out.println("Nombre del pasajero: " + getNombre_pasajero());
+        System.out.println("DNI del pasajero: " + getDni_pasajero());
+        System.out.println("Edad del pasajero: " + getEdad_pasajero());
+        System.out.println("Sexo del pasajero: " + getSexo_pasajero());
+        System.out.println("Nacionalidad del pasajero: " + getNacionalidad_pasajero());
+        System.out.println("ID del ticket: " + getId_ticket());
+        System.out.println("Precio del ticket: " + getPrecio_ticket());
+        System.out.println("Fecha de compra: " + getFecha_compra());
+        System.out.println("Fecha de salida: " + getFecha_salida());
+        System.out.println("Estado del ticket: " + getEstado_ticekt());
+        System.out.println("Ciudad origen: " + getCiudad_origen());
+        System.out.println("Ciudad destino: " + getCiudad_destino());
+        System.out.println("Distancia de la ruta: " + getDistancia_ruta());
+        System.out.println("Duración de la ruta: " + getDuracion_ruta());
+        System.out.println("Tipo de servicio: " + getTipo_servicio());
+        System.out.println("Costo del servicio: " + getCosto_servicio());
+        System.out.println("Asiento seleccionado: " + getSeleccion_Asiento());
+        System.out.println("Cantidad de maleta adicional: " + getCantidad_maleta_adicional());
+        System.out.println("Costo de maleta adicional: " + getMaleta_adicional_costo());
     }
 }
