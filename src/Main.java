@@ -140,10 +140,20 @@ public class Main
         vip_2.setMaleta_adicional_costo(6.0);
 
         normal_1.mostar_datos_ticket_normal();
+        System.out.println();
+
         normal_2.mostar_datos_ticket_normal();
+        System.out.println();
+
         normal_3.mostar_datos_ticket_normal();
+        System.out.println();
+
         vip_1.mostar_datos_ticket_vip();
+        System.out.println();
+
         vip_2.mostar_datos_ticket_vip();
+        System.out.println();
+
 
         Normal normal_4 = new Normal("Laura Torres", "2233445566", 26, "Femenino", "Ecuatoriana", "T445566", 15.00, "2024-06-12", "2024-06-16", 12, true, "Quito", "Puyo", 185.0, "6 horas", "Normal", 0.0, true, "B4", true, false, 1, 0.0);
         Normal normal_5 = new Normal("Miguel Angel", "3344556677", 31, "Masculino", "Ecuatoriano", "T556677", 17.50, "2024-06-13", "2024-06-17", 18, true, "Quito", "Riobamba", 200.0, "4 horas", "Normal", 0.0, true, "C1", true, false, 1, 0.0);
@@ -153,10 +163,19 @@ public class Main
         VIP vip_4 = new VIP("Andrea Fernández", "6677889900", 33, "Femenino", "Ecuatoriana", "T889900", 17.50, "2024-06-16", "2024-06-20", 9, true, "Quito", "Riobamba", 200.0, "4 horas", "VIP", 0.0, true, "A4", true, true, true, true, true, true, 1, 2.0);
 
         normal_4.mostar_datos_ticket_normal();
+        System.out.println();
         normal_5.mostar_datos_ticket_normal();
+        System.out.println();
+
         normal_6.mostar_datos_ticket_normal();
+        System.out.println();
+
         vip_3.mostar_datos_ticket_vip();
+        System.out.println();
+
         vip_4.mostar_datos_ticket_vip();
+        System.out.println();
+
 
     }
 }
