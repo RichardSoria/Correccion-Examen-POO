@@ -140,18 +140,23 @@ public class Main
         vip_2.setMaleta_adicional_costo(6.0);
 
         normal_1.mostar_datos_ticket_normal();
+        normal_1.calcula_costo_maleta_adicional();
         System.out.println();
 
         normal_2.mostar_datos_ticket_normal();
+        normal_2.calcula_costo_maleta_adicional();
         System.out.println();
 
         normal_3.mostar_datos_ticket_normal();
+        normal_3.calcula_costo_maleta_adicional();
         System.out.println();
 
         vip_1.mostar_datos_ticket_vip();
+        vip_1.calcula_costo_maleta_adicional();
         System.out.println();
 
         vip_2.mostar_datos_ticket_vip();
+        vip_2.calcula_costo_maleta_adicional();
         System.out.println();
 
 
@@ -163,17 +168,23 @@ public class Main
         VIP vip_4 = new VIP("Andrea Fernández", "6677889900", 33, "Femenino", "Ecuatoriana", "T889900", 17.50, "2024-06-16", "2024-06-20", 9, true, "Quito", "Riobamba", 200.0, "4 horas", "VIP", 0.0, true, "A4", true, true, true, true, true, true, 1, 2.0);
 
         normal_4.mostar_datos_ticket_normal();
+        normal_4.calcula_costo_maleta_adicional();
         System.out.println();
+
         normal_5.mostar_datos_ticket_normal();
+        normal_5.calcula_costo_maleta_adicional();
         System.out.println();
 
         normal_6.mostar_datos_ticket_normal();
+        normal_6.calcula_costo_maleta_adicional();
         System.out.println();
 
         vip_3.mostar_datos_ticket_vip();
+        vip_3.calcula_costo_maleta_adicional();
         System.out.println();
 
         vip_4.mostar_datos_ticket_vip();
+        vip_4.calcular_costo_pasaje();
         System.out.println();
 
 
